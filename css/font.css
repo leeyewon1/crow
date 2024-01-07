@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+
+/* @font-face {
+    font-family: 'Hana_handwriting';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/naverfont_05@1.0/Hana_handwriting.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+
+
+}
