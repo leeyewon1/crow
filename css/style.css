@@ -1,5 +1,5 @@
 * {
-  outline: 1px solid tomato-;
+  outline: 1px solid tomato;
 }
 
 #Header {
@@ -283,8 +283,59 @@
   }
 }
 
+.main_content .title h2 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.main_content .inner{
+  position: relative;
+}
+
+.main_content .inner .left img {
+  height: 600px;
+}
+
+.main_content .inner .right {
+  position: absolute;
+  top: 33%;
+  right: 16px;
+}
+
+.main_content .inner .right .txt_box {
+padding: 30px 29px;
+  text-align: center;
+  background: url(../images/Ellipse.svg);
+  /* color: #fff; */
+
+}
+
+.main_content .inner .right .txt_box strong {
+  display: block;
+  font-size: 21px;
+  margin: 0 0 30px 0;
+}
+
+.main_content .inner .right .txt_box p {
+  line-height: 21px;
+}
+
+.main_content .inner img {
+  object-fit: cover;
+  height: 600px;
+}
+
+
+/* .main_content ------- */
+
 .visual_content {
   position: relative;
+}
+
+.visual_content .inner figure img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
 }
 
 .visual_content .arrows {
@@ -314,7 +365,7 @@
 
 .visual_content .arrows button i {
   padding: 5px;
-  font-size: 20px;
+  font-size: 32px;
   color: #202124;
   /* background: rgba(0, 0, 0, 0.25);
     border-radius: 50%; */
@@ -340,6 +391,8 @@
     font-size: 1vw;
   }
 }
+
+/* visual_content ------------ */
 
 .main_banner {
   position: relative;
@@ -395,8 +448,11 @@
   }
 }
 
+/* main_banner ------------- */
+
 #Footer {
-  padding: 60px 0 40px 0;
+  padding: 50px 0 ;
+  background: #f0f0f09d;
 }
 
 #Footer .customer {
